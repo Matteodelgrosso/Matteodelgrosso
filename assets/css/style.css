@@ -1,13 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'ZenDots'
+    font-family: 'Lexend Exa', sans-serif;
 }
 
-@font-face {
-    font-family: 'ZenDots';
-    src: url(assets/font/ZenDots-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@200;300;400;500;600;700;800;900&display=swap');
+
 
 h1, h4, h3, h2, p{
     color: rgb(255, 255, 255);
@@ -49,8 +47,9 @@ body{
     text-decoration: none;
     color: rgb(255, 255, 255);
     display: block;
-    font-size: 13px;
+    font-size: 14px;
     margin: 25px;
+    font-weight: 600;
 }
 .header__menu__item a:hover{
     color: #0b977f;
@@ -66,19 +65,19 @@ body{
     width: 100%;
 }
 .home__title h1{
-    font-weight: 700; 
+    font-weight: 800; 
     font-size: 12vh; 
     line-height: 1; 
     text-align: center;
     opacity: 1;
-    text-shadow: 4px 7px 4px rgba(255, 255, 255, 0.6);
+    text-shadow: 4px 5px 4px rgba(255, 255, 255, 0.6);
 }
 .home__title h2{
-    font-weight: 700; 
+    font-weight: 800; 
     font-size: 7vh; 
     opacity: 1;
     margin-top: 30px;
-    text-shadow: 4px 6px 4px rgba(255, 255, 255, 0.6);
+    text-shadow: 4px 5px 4px rgba(255, 255, 255, 0.6);
 }
 
 /*----------- SOCIAL ICON ------------*/
