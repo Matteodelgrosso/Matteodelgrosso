@@ -1,0 +1,66 @@
+
+/*---------- CONTACTS -------------*/
+
+#contacts .form{
+    margin-bottom: 20px;    
+}
+#contacts h1{
+    padding-bottom: 1.5rem;
+    color:rgb(239, 237, 235);
+    opacity: 1;
+}
+#contacts button{
+    margin: 15px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    background-color: #0b977f;
+    padding: 8px 25px;
+}
+#contacts .container h1{
+    font-size: 3.5rem;
+}
+#contacts .container{
+    position: absolute;
+    top: 15%;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+#contacts input,
+#contacts textarea{
+    width: 30%;
+    padding: 10px;
+    margin-top: 5px;
+}
+#contacts textarea{
+    height: 120px;
+}
+#contacts label{
+    margin-bottom: 5px;
+    display: block;
+    color: #0b977f;
+}
+
+/*--------- TABLET -----------*/
+
+@media screen and (min-width: 481px) and (max-width: 769px){
+    #contacts .container{
+        position: relative;
+    }
+    #contacts .container h1{
+        font-size: 2rem;
+    }
+
+}
+
+/*-------- SMARTPHONE --------*/
+
+@media screen and (max-width: 480px){
+
+        #contacts .container{
+            position: relative;
+        }
+        #contacts .container h1{
+            font-size: 2rem;
+        }
+}

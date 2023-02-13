@@ -1,0 +1,81 @@
+
+/*--------- ABOUT ---------*/
+
+.banner{
+    height:50%;
+    margin-top: 28vh; 
+    margin-left: 15%;
+}
+.banner__image{
+    border-bottom-right-radius: 40px; 
+    border-bottom-left-radius: 40px; 
+    width:17%; 
+    float:left;
+    height:auto; 
+    margin-right: 5%;
+    filter: grayscale(100%); 
+    -webkit-filter: grayscale(100%);
+}
+.banner__copy{
+    width:60%; 
+    float:left;
+    height:100%;
+    display: table;
+}
+.banner__copy__text{
+    display: table-cell; 
+    vertical-align: middle;
+    padding:30px; 
+    margin-left: 5%;
+}
+.banner__copy__text h2{
+    font-size: 36px;
+    margin-bottom:0; 
+    padding-bottom: 35px; 
+    opacity: 1;
+}
+.banner__copy__text p{
+    font-size: 20px; 
+    margin: 5px 0; 
+    opacity: 1; 
+    font-weight: 100;
+}
+
+
+/*--------- TABLET -----------*/
+
+@media screen and (min-width: 481px) and (max-width: 769px){
+    section .banner{
+        position: relative;
+    }
+    .banner__image{
+        width: 30%;
+    }
+    .banner__copy__text h2{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+}
+
+/*-------- SMARTPHONE --------*/
+
+@media screen and (max-width: 480px){
+
+    section .banner{
+        position: relative;
+    }
+    .banner__image{
+        width: 95%;
+    }
+    .banner__copy__text h2{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .banner__copy__text p{
+        margin-bottom: 25%;
+        text-align: left;
+        font-size: 1rem;
+        width: 100%;
+    }
+}

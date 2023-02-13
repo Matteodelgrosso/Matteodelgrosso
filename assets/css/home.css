@@ -1,0 +1,62 @@
+
+/*------------- HOME --------------*/
+
+.home__title{
+    position: absolute;
+    top: 40%; 
+    display: block; 
+    text-align: center; 
+    width: 100%;
+}
+.home__title h1{
+    font-weight: 800; 
+    font-size: 12vh; 
+    line-height: 1; 
+    text-align: center;
+    opacity: 1;
+    text-shadow: 4px 5px 4px rgba(255, 255, 255, 0.6);
+}
+.home__title h2{
+    font-weight: 800; 
+    font-size: 7vh; 
+    opacity: 1;
+    margin-top: 30px;
+    text-shadow: 4px 5px 4px rgba(255, 255, 255, 0.6);
+}
+
+/*--------- TABLET -----------*/
+
+@media screen and (min-width: 481px) and (max-width: 769px){
+    .home__title h1,
+    .home__title h2{
+        position: relative;
+        max-width: 100%;
+        font-size: 3rem;
+    }
+    .home__title{
+        position: relative;
+        margin-bottom: 60%;
+        margin-top: 20%;
+    }
+
+}
+
+/*-------- SMARTPHONE --------*/
+
+@media screen and (max-width: 480px){
+    .home__title h1,
+    .home__title h2{
+        position: relative;
+        max-width: 100%;
+        font-size: 2rem;
+    }
+    .home__title{
+        position: relative;
+    }
+    .home__title h1{
+        margin-top: 30%;
+    }
+    .home__title h2{
+        margin-bottom: 55%;
+    }
+}

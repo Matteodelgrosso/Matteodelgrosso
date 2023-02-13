@@ -55,31 +55,6 @@ body{
     color: #0b977f;
 }
 
-/*------------- HOME --------------*/
-
-.home__title{
-    position: absolute;
-    top: 40%; 
-    display: block; 
-    text-align: center; 
-    width: 100%;
-}
-.home__title h1{
-    font-weight: 800; 
-    font-size: 12vh; 
-    line-height: 1; 
-    text-align: center;
-    opacity: 1;
-    text-shadow: 4px 5px 4px rgba(255, 255, 255, 0.6);
-}
-.home__title h2{
-    font-weight: 800; 
-    font-size: 7vh; 
-    opacity: 1;
-    margin-top: 30px;
-    text-shadow: 4px 5px 4px rgba(255, 255, 255, 0.6);
-}
-
 /*----------- SOCIAL ICON ------------*/
 
 .sidebar {
@@ -135,135 +110,8 @@ body{
     min-width: 120px;
 }
 
-/*--------- ABOUT ---------*/
-
-.banner{
-    height:50%;
-    margin-top: 28vh; 
-    margin-left: 15%;
-}
-.banner__image{
-    border-bottom-right-radius: 40px; 
-    border-bottom-left-radius: 40px; 
-    width:17%; 
-    float:left;
-    height:auto; 
-    margin-right: 5%;
-    filter: grayscale(100%); 
-    -webkit-filter: grayscale(100%);
-}
-.banner__copy{
-    width:60%; 
-    float:left;
-    height:100%;
-    display: table;
-}
-.banner__copy__text{
-    display: table-cell; 
-    vertical-align: middle;
-    padding:30px; 
-    margin-left: 5%;
-}
-.banner__copy__text h2{
-    font-size: 36px;
-    margin-bottom:0; 
-    padding-bottom: 35px; 
-    opacity: 1;
-}
-.banner__copy__text p{
-    font-size: 20px; 
-    margin: 5px 0; 
-    opacity: 1; 
-    font-weight: 100;
-}
-
-
-/*---------- CONTACTS -------------*/
-
-#contacts .form{
-    margin-bottom: 20px;    
-}
-#contacts h1{
-    padding-bottom: 1.5rem;
-    color:rgb(239, 237, 235);
-    opacity: 1;
-}
-#contacts button{
-    margin: 15px;
-    margin-bottom: 25px;
-    font-size: 15px;
-    background-color: #0b977f;
-    padding: 8px 25px;
-}
-#contacts .container h1{
-    font-size: 3.5rem;
-}
-#contacts .container{
-    position: absolute;
-    top: 15%;
-    display: block;
-    text-align: center;
-    width: 100%;
-}
-#contacts input,
-#contacts textarea{
-    width: 30%;
-    padding: 10px;
-    margin-top: 5px;
-}
-#contacts textarea{
-    height: 120px;
-}
-#contacts label{
-    margin-bottom: 5px;
-    display: block;
-    color: #0b977f;
-}
-
-/*--------- SKILLS -------------*/
-
-#card{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.polaroid {
-    width: 15%;
-    background-color: rgb(51, 51, 51);
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
-    margin-bottom: 20px;
-    margin-top: 6%;
-    border-radius: 10px;
-}
-.container__text p{
-    text-align: center;
-    padding-bottom: 20px;
-
-}
-.container__text{
-    height: max-content;
-}
-#card .polaroid{
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-}
-.icon {
-    width: 100%;
-    height: auto;
-}
-.icon__css{
-    width: 100%;
-    height: 233px;
-}
-.skill{
-    text-align: center;
-    margin-top: 9%;
-    font-size: 3rem;
-}
-
 /*-------- FOOTER ---------- */
+
 .footer {
     padding-bottom: 15px;
     position: fixed;
@@ -277,15 +125,10 @@ body{
     color: rgb(255, 255, 255);
 }
 
-
 /*--------- TABLET -----------*/
 
 @media screen and (min-width: 481px) and (max-width: 769px){
-    #card .polaroid{
-        width: 30%;
-        margin: 10%;
-        margin-top: 15%;
-    }
+
     .header__menu {
         position: relative;
     }
@@ -294,17 +137,7 @@ body{
         margin: 0;
         padding-bottom: 20%;
     }
-    .home__title h1,
-    .home__title h2{
-        position: relative;
-        max-width: 100%;
-        font-size: 3rem;
-    }
-    .home__title{
-        position: relative;
-        margin-bottom: 60%;
-        margin-top: 20%;
-    }
+
     .footer{
         bottom: 0;
         position: relative;
@@ -313,91 +146,26 @@ body{
     .footer p{
         font-size: 0.5rem;
     }
-    #contacts .container{
-        position: relative;
-    }
-    #contacts .container h1{
-        font-size: 2rem;
-    }
-    section .banner{
-        position: relative;
-    }
-    .banner__image{
-        width: 30%;
-    }
-    .banner__copy__text h2{
-        text-align: center;
-        font-size: 2rem;
-    }
+
 }
 
-/* SMARTPHONE */
+/*-------- SMARTPHONE --------*/
 
 @media screen and (max-width: 480px){
     body{
         margin: 0;
         padding: 0;
     }
-    /* Home */
+    
     .header__menu {
         position: relative;
     }
-
     .header__menu__item a{
         width: 100%;
         margin: 0;
         padding-bottom: 20%;
     }
-    .home__title h1,
-    .home__title h2{
-        position: relative;
-        max-width: 100%;
-        font-size: 2rem;
-    }
-    .home__title{
-        position: relative;
-    }
-    .home__title h1{
-        margin-top: 30%;
-    }
-    .home__title h2{
-        margin-bottom: 55%;
-    }
 
-    /* About */
-    section .banner{
-        position: relative;
-    }
-    .banner__image{
-        width: 95%;
-    }
-    .banner__copy__text h2{
-        text-align: center;
-        font-size: 2rem;
-    }
-    .banner__copy__text p{
-        margin-bottom: 25%;
-        text-align: left;
-        font-size: 1rem;
-        width: 100%;
-    }
-
-    /* Skills */
-
-    #card .polaroid{
-        width: 90%;
-        margin: 20%;
-    }
-
-    /* Contatti */
-    #contacts .container{
-        position: relative;
-    }
-    #contacts .container h1{
-        font-size: 2rem;
-    }
-
-    /* Footer */
     .footer{
         bottom: 0;
         position: relative;
@@ -406,6 +174,7 @@ body{
     .footer p{
         font-size: 0.5rem;
     }
+    
     .sidebar{
         transform: scale(0.4);
         position: relative;
